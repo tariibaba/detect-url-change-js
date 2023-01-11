@@ -15,12 +15,14 @@
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
-    "prepublish": "yarn build"
+    "prepublish": "yarn build",
+    "prebuild": "rimraf dist"
   },
   "devDependencies": {
     "@parcel/packager-ts": "2.8.2",
     "@parcel/transformer-typescript-types": "2.8.2",
     "parcel": "^2.8.2",
+    "rimraf": "^3.0.2",
     "typescript": ">=3.0.0"
   }
 }
