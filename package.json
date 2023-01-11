@@ -9,6 +9,9 @@
   "dependencies": {
     "events": "^3.3.0"
   },
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
